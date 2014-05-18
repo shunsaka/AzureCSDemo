@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureVMDemo", "AzureVMDemo\AzureVMDemo.csproj", "{5A2D0282-E0C9-437B-B96F-FD7C56BC7FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8BC908B2-0164-4ACB-BBCB-32DF2A4C3F3D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{5A1AA164-F1F5-4468-8A83-C5228307E309}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AzureVMDemo-VM-dev.json = PublishScripts\Configurations\AzureVMDemo-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2D0282-E0C9-437B-B96F-FD7C56BC7FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2D0282-E0C9-437B-B96F-FD7C56BC7FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2D0282-E0C9-437B-B96F-FD7C56BC7FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2D0282-E0C9-437B-B96F-FD7C56BC7FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A1AA164-F1F5-4468-8A83-C5228307E309} = {8BC908B2-0164-4ACB-BBCB-32DF2A4C3F3D}
+	EndGlobalSection
+EndGlobal
